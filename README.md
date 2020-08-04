@@ -6,4 +6,4 @@ Build Application:
 
 Usage:
 - "3dsmc --help" 
-- press Esc cancel
+- press Esc to cancel
