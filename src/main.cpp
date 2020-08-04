@@ -65,7 +65,7 @@ int main(int argc, char **argv) {
 
 		image = std::make_unique<StillImageSource>(filenames[i], paramsFile);
 
-		Marker marker(*image);
+		Marker marker(*image, 0.02f);
 		segmentation->update(*image);
 
 		imshow("markers", marker.visualize());
